@@ -6,7 +6,7 @@
   <h3>Your AI's Local Superpower</h3>
   <p>Transform your development workflow with unlimited local AI processing</p>
   
-  <a href="https://houtini.ai">
+  <p><a href="https://houtini.ai">
     <img src="https://img.shields.io/badge/🚀_Get_Started-0066FF?style=for-the-badge" alt="Get Started">
   </a>
   <a href="https://github.com/houtini-ai/lm">
@@ -14,7 +14,17 @@
   </a>
   <a href="https://github.com/houtini-ai/lm/blob/main/docs/user-guide-md.md">
     <img src="https://img.shields.io/badge/📚_Documentation-4A90E2?style=for-the-badge" alt="Documentation">
-  </a>
+  </a></p>
+<hr>
+<p><a href="https://github.com/houtini-ai/lm/blob/main/docs/analysis-functions-md.md">
+  <img src="https://img.shields.io/badge/🔍_Analysis_Functions-9B59B6?style=for-the-badge" alt="Analysis Functions">
+</a>
+<a href="https://github.com/houtini-ai/lm/blob/main/docs/generation-functions-md.md">
+  <img src="https://img.shields.io/badge/⚡_Code_Generation-E74C3C?style=for-the-badge" alt="Code Generation">
+</a>
+<a href="https://github.com/houtini-ai/lm/blob/main/docs/custom-functions-md.md">
+  <img src="https://img.shields.io/badge/🎯_Custom_Prompting-F39C12?style=for-the-badge" alt="Custom Prompting">
+</a></p>
 </div>
 
 <br>
