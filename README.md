@@ -8,7 +8,7 @@
   <h3>Your AI's Local Superpower</h3>
   <p>Transform your development workflow with unlimited local AI processing</p>
   
-  <a href="https://houtini.ai">
+  <a href="https://github.com/houtini-ai/lm/blob/main/docs/user-guide-md.md">
     <img src="https://img.shields.io/badge/🚀_Get_Started-0066FF?style=for-the-badge" alt="Get Started">
   </a>
   <a href="https://github.com/houtini-ai/lm">
