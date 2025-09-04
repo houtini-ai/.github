@@ -45,7 +45,7 @@
 
 ## Why Houtini?
 
-**Building with Claude or local LLMs?** Stop burning through API budgets and context windows on routine tasks. Houtini handles code analysis, generation, and documentation locally so you can focus on architecture and creative problem-solving.
+**Building with Claude?** Stop that pesky thread length hard stop in Claude Desktop threads and offload routine tasks to your local LLM on LM Studio to assist with API call efficiency routine tasks. Houtini handles code analysis, generation, and documentation locally so you can focus on architecture and creative problem-solving. Houtini-LM is a revolution for coders, vibe coders and anyone with a GPU who is curious about building the things they never thought they could. Using our custom expert prompt library (we're adding to it daily!), you can create scaffolding, WordPress plugins, Themes, games and an awful lot more - check out our documentation and user guides to see how powerful this LM Studio MCP actually is!"
 
 ## Our Core Ecosystem
 
