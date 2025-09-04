@@ -1,7 +1,7 @@
 # Houtini
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/houtini-ai/houtini-ai/main/assets/houtini-logo.png" alt="Houtini Logo" height="120">
+  <img src="https://raw.githubusercontent.com/houtini-ai/.github/refs/heads/main/houtini-logo.jpg" alt="Houtini Logo" height="120">
   
   <h3>Your AI's Local Superpower</h3>
   <p>Transform your development workflow with unlimited local AI processing</p>
