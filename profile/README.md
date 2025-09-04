@@ -59,23 +59,17 @@ Growing list of expert functions for code analysis, generation, and documentatio
 
 <br clear="right"/>
 
-### Documentation & Examples
+### Documentation
 <a href="https://github.com/houtini-ai/examples">
   <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=houtini-ai&repo=examples&theme=light" />
 </a>
 
-**[examples](https://github.com/houtini-ai/examples)** - Working Examples  
-Real-world workflows, templates, and integration patterns to get you building fast.
-
 <br clear="right"/>
 
 ### Website & Community
-<a href="https://github.com/houtini-ai/website">
+<a href="https://houtini.ai">
   <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=houtini-ai&repo=website&theme=light" />
 </a>
-
-**[website](https://houtini.ai)** - houtini.ai  
-Our documentation hub, and community resources.
 
 <br clear="right"/>
 
