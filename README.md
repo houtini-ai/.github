@@ -52,19 +52,13 @@ Growing list of expert functions for code analysis, generation, and documentatio
 <br clear="right"/>
 
 ### Documentation & Examples
-<a href="https://github.com/houtini-ai/examples">
+<a href="https://github.com/houtini-ai/examples](https://github.com/houtini-ai/lm/blob/main/docs/user-guide-md.md">
   <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=houtini-ai&repo=examples&theme=light" />
 </a>
-
-**[examples](https://github.com/houtini-ai/examples)** - Working Examples  
-Real-world workflows, templates, and integration patterns to get you building fast.
 
 <br clear="right"/>
 
 ### Website & Community
-<a href="https://github.com/houtini-ai/website">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=houtini-ai&repo=website&theme=light" />
-</a>
 
 **[website](https://houtini.ai)** - houtini.ai  
 Our documentation hub, and community resources.
@@ -125,9 +119,9 @@ local-llm:health_check
 - **[Email Support](mailto:hello@houtini.ai)** - Direct support and enquiries
 - **[GitHub Discussions](https://github.com/houtini-ai/lm/discussions)** - Share workflows and get help
 - **[Issue Tracker](https://github.com/houtini-ai/lm/issues)** - Report bugs and request features
-- **[Documentation](https://houtini.ai/docs-index.html)** - Complete guides and function reference
-- **[About](https://houtini.ai/about.html)** - Learn about our mission and approach
-- **[Enterprise Consulting](https://houtini.ai/enterprise.html)** - Contact Us: Custom solutions and support
+- **[Documentation](https://houtini.ai/quick-start/)** - Complete guides and function reference
+- **[About](https://houtini.ai/about)** - Learn about our mission and approach
+- **[Enterprise Consulting](https://houtini.ai/enterprise/)** - Contact Us: Custom solutions and support
 - **[Examples](https://github.com/houtini-ai/examples)** - Working integration patterns
 
 ## Built for Developers, Vibe Coders and People Who Make
@@ -152,6 +146,5 @@ We understand the pain of API costs eating into project budgets and context wind
   <br>
   
   <a href="https://github.com/houtini-ai/lm">⭐ Star the main repo</a> • 
-  <a href="https://houtini.ai">🌐 Visit houtini.ai</a> • 
-  <a href="https://houtini.ai/docs-index.html">📖 Read the docs</a>
+  <a href="https://houtini.ai">🌐 Visit houtini.ai</a>
 </div>
