@@ -1,159 +1,144 @@
 # Houtini
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/houtini-ai/.github/refs/heads/main/houtini-logo.jpg" alt="Houtini Logo" height="240">
+  <img src="https://raw.githubusercontent.com/houtini-ai/.github/refs/heads/main/houtini-logo.jpg" alt="Houtini Logo" height="180">
   
-  <h3>Your AI's Local Superpower</h3>
-  <p>Transform your development workflow with unlimited local AI processing</p>
-  
-  <p><a href="https://github.com/houtini-ai/lm/blob/main/docs/user-guide-md.md">
-    <img src="https://img.shields.io/badge/🚀_Get_Started-0066FF?style=for-the-badge" alt="Get Started">
-  </a>
-  <a href="https://github.com/houtini-ai/lm">
-    <img src="https://img.shields.io/badge/📦_@houtini/lm-00CC88?style=for-the-badge" alt="Main Package">
-  </a>
-  <a href="https://github.com/houtini-ai/lm/blob/main/docs/user-guide-md.md">
-    <img src="https://img.shields.io/badge/📚_Documentation-4A90E2?style=for-the-badge" alt="Documentation">
-  </a></p>
-<hr>
-<p><a href="https://github.com/houtini-ai/lm/blob/main/docs/analysis-functions-md.md">
-  <img src="https://img.shields.io/badge/🔍_Analysis_Functions-9B59B6?style=for-the-badge" alt="Analysis Functions">
-</a>
-<a href="https://github.com/houtini-ai/lm/blob/main/docs/generation-functions-md.md">
-  <img src="https://img.shields.io/badge/⚡_Code_Generation-E74C3C?style=for-the-badge" alt="Code Generation">
-</a>
-<a href="https://github.com/houtini-ai/lm/blob/main/docs/custom-functions-md.md">
-  <img src="https://img.shields.io/badge/🎯_Custom_Prompting-F39C12?style=for-the-badge" alt="Custom Prompting">
-</a></p>
+  <h3>Work Smarter, Not Harder</h3>
+  <p>Tools that actually help you get stuff done with AI</p>
 </div>
 
-<br>
-
 <div align="center">
-  <a href="https://github.com/houtini-ai/lm/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/houtini-ai/lm" alt="License">
-  </a>
-  <a href="https://github.com/houtini-ai/lm/stargazers">
-    <img src="https://img.shields.io/github/stars/houtini-ai/lm?style=social" alt="GitHub Stars">
-  </a>
-  <a href="https://www.npmjs.com/package/@houtini/lm">
-    <img src="https://img.shields.io/npm/dt/@houtini/lm" alt="NPM Downloads">
-  </a>
+  
+  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lite?label=lite%20downloads&color=00CC88)](https://www.npmjs.com/package/@houtini/lite)
+  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm?label=lm%20downloads&color=0066FF)](https://www.npmjs.com/package/@houtini/lm)
+  [![License](https://img.shields.io/github/license/houtini-ai/houtini-lite)](https://github.com/houtini-ai/houtini-lite/blob/main/LICENSE)
+  [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
+  
 </div>
 
 ---
 
-## Why Houtini?
+## What We're Building
 
-**Building with Claude?** Stop that pesky thread length hard stop in Claude Desktop threads and offload routine tasks to your local LLM on LM Studio to assist with API call efficiency routine tasks. Houtini handles code analysis, generation, and documentation locally so you can focus on architecture and creative problem-solving. Houtini-LM is a revolution for coders, vibe coders and anyone with a GPU who is curious about building the things they never thought they could. Using our custom expert prompt library (we're adding to it daily!), you can create scaffolding, WordPress plugins, Themes, games and an awful lot more - check out our documentation and user guides to see how powerful this LM Studio MCP actually is!"
+Right, here's the thing. AI tools are powerful but they're also overwhelming. Documentation written by robots for robots. Enterprise solutions when you just need to get Tuesday's work done.
 
-## Our Core Ecosystem
+We build the bridges. MCP servers that connect your tools. Local AI that saves your API budget. Practical stuff that works.
 
-### Main Package
-<a href="https://github.com/houtini-ai/lm">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=houtini-ai&repo=lm&theme=light" />
-</a>
+No hype. No £997 courses. Just tools that help you work smarter.
 
-**[@houtini/lm](https://github.com/houtini-ai/lm)** - Local LLM MCP Server  
-Growing list of expert functions for code analysis, generation, and documentation. Unlimited processing without API costs.
+## Our Tools
 
-<br clear="right"/>
+### 🎯 **[Houtini Agents](https://github.com/houtini-ai/houtini-agents)** *(Coming Soon)*
+Autonomous AI agents that actually understand your workflow. Not the sci-fi version - the practical "do this repetitive task while I grab coffee" version.
 
-### Documentation
-<a href="https://github.com/houtini-ai/examples">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=houtini-ai&repo=examples&theme=light" />
-</a>
+### ⚡ **[Houtini Lite](https://github.com/houtini-ai/houtini-lite)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/lite)](https://www.npmjs.com/package/@houtini/lite)
 
-<br clear="right"/>
+The streamlined version. Same power, less setup. Perfect when you need local AI analysis without the full toolkit. One command, you're running.
 
-### Website & Community
-<a href="https://houtini.ai">
-  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=houtini-ai&repo=website&theme=light" />
-</a>
+```bash
+npm install -g @houtini/lite
+```
 
-<br clear="right"/>
+### 🌍 **[GEO Analyzer](https://github.com/houtini-ai/geo-analyzer)**
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/geo-analyzer?style=social)](https://github.com/houtini-ai/geo-analyzer)
+
+SEO is dead. Long live GEO (Generative Engine Optimisation). This tool shows you exactly how AI search engines see your content. Built it because I needed it. Now you can use it too.
+
+### 🚀 **[Gemini MCP](https://github.com/houtini-ai/gemini-mcp)**
+Connect Claude to Google's Gemini. Why? Because sometimes you need a second opinion. Or the first opinion. Or just want to see what happens when AIs talk to each other.
+
+### 📧 **[Brevo MCP](https://github.com/houtini-ai/brevo-mcp)**
+Email marketing meets AI. Analyse campaigns, segment lists, write better copy. All from Claude. Because switching between seventeen tabs is nobody's idea of productivity.
+
+### 🔧 **[Houtini LM](https://github.com/houtini-ai/lm)** *(Original)*
+[![NPM Version](https://img.shields.io/npm/v/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
+
+Where it all started. The full toolkit with 50+ expert functions. Code analysis, generation, WordPress development, even games. Still actively maintained for power users who want everything.
 
 ## Quick Start
 
+Pick your flavour:
+
 ```bash
-# Install the MCP server
+# Lightweight version (recommended for most)
+npm install -g @houtini/lite
+
+# Full toolkit (if you want everything)
 npm install -g @houtini/lm
 
-# Add to Claude Desktop
+# GEO Analysis (check your AI search visibility)
+npm install -g @houtini/geo-analyzer
+```
+
+Then configure in Claude Desktop:
+
+```json
 {
   "mcpServers": {
-    "houtini-lm": {
+    "houtini-lite": {
       "command": "npx",
-      "args": ["@houtini/lm"],
-      "env": {
-        "LM_STUDIO_URL": "ws://127.0.0.1:1234",
-        "LLM_MCP_ALLOWED_DIRS": "C:/dev"
-      }
+      "args": ["@houtini/lite"]
     }
   }
 }
-
-# Start building unlimited
-local-llm:health_check
 ```
 
-## Core Functions
+That's it. You're running local AI.
 
-| Category | Functions | Purpose |
-|----------|-----------|---------|
-| **Analysis** | 17+ functions | Code quality, security audits, project structure |
-| **Generation** | 8+ functions | Tests, documentation, WordPress plugins |
-| **Creative** | 3+ functions | Games, CSS art, interactive experiences |
-| **System** | 5+ functions | Health checks, diagnostics, cache management |
+## Who This Is For
 
-## Community & Support
+- **Freelancers** who can't justify another monthly subscription
+- **Agencies** trying to stay competitive without burning budget
+- **Developers** who know enough to be dangerous
+- **Anyone** tired of context window limits and API rate limits
 
-<div align="center">
-  <a href="https://github.com/houtini-ai/lm/discussions">
-    <img src="https://img.shields.io/badge/GitHub_Discussions-181717?style=for-the-badge&logo=github&logoColor=white" alt="Discussions">
-  </a>
-  <a href="https://github.com/houtini-ai/lm/issues">
-    <img src="https://img.shields.io/badge/Report_Issues-FF6B35?style=for-the-badge&logo=github&logoColor=white" alt="Issues">
-  </a>
-  <a href="https://github.com/houtini-ai/lm/blob/main/docs/user-guide-md.md">
-    <img src="https://img.shields.io/badge/Website-0066FF?style=for-the-badge&logoColor=white" alt="Documentation">
-  </a>
-</div>
+We're not building for enterprise. We're building for Tuesday morning when you need to ship something and Claude's context window is full.
 
-<br>
+## The Real Story
 
-- **[X/Twitter](https://x.com/houtini_lm)** - Follow for updates and news
-- **[LinkedIn](https://www.linkedin.com/company/houtini/)** - Connect with our team
-- **[Email Support](mailto:hello@houtini.ai)** - Direct support and enquiries
-- **[GitHub Discussions](https://github.com/houtini-ai/lm/discussions)** - Share workflows and get help
-- **[Issue Tracker](https://github.com/houtini-ai/lm/issues)** - Report bugs and request features
-- **[Documentation](https://houtini.ai/docs-index.html)** - Complete guides and function reference
-- **[About](https://houtini.ai/about.html)** - Learn about our mission and approach
-- **[Enterprise Consulting](https://houtini.ai/enterprise.html)** - Contact Us: Custom solutions and support
-- **[Examples](https://github.com/houtini-ai/examples)** - Working integration patterns
+I'm Richard. Twenty years on the web, two years deep in AI. Started building these tools because I needed them. Turns out other people need them too.
 
-## Built for Developers, Vibe Coders and People Who Make
+Every tool here solves a real problem I've hit. No theoretical "this might be useful" stuff. Just practical solutions to actual work problems.
 
-We understand the pain of API costs eating into project budgets and context windows limiting creativity. Houtini puts unlimited AI processing power directly on your machine, preserving your Claude context for strategic thinking.
+Want the full story? [Read about it here](https://houtini.com/about/).
 
-**Perfect for:**
-- **Agency developers** who need competitive pricing
-- **Vibe Coders** who need a library of powerful prompts to speed up their work reliably
-- **Freelancers** building client solutions efficiently  
-- **Teams** scaling individual productivity
-- **Anyone** tired of rationing their AI interactions
+## Get Involved
+
+**Need help?** Open an issue. I actually read them.
+
+**Found a bug?** Tell me. I'll fix it.
+
+**Want to contribute?** PRs welcome. Keep it simple, make it useful.
+
+**Just want to chat?** Find me on [X/Twitter](https://x.com/houtini_lm) or [LinkedIn](https://www.linkedin.com/company/houtini/).
+
+## Support
+
+- 📖 [Documentation](https://houtini.com/docs/) - Guides written by humans for humans
+- 💬 [GitHub Discussions](https://github.com/houtini-ai/houtini-lite/discussions) - Share what you're building
+- 🐛 [Issues](https://github.com/orgs/houtini-ai/repositories) - Report problems, request features
+- ✉️ [Email](mailto:hello@houtini.ai) - Direct line if you need it
+
+## Philosophy
+
+AI shouldn't be complicated. It shouldn't require a PhD or a massive budget. It should just help you work better.
+
+Every tool we build follows these rules:
+1. It solves a real problem
+2. It works out of the box
+3. It doesn't require a manual to understand
+
+That's it. No manifestos. No disruption. Just tools that work.
 
 ---
 
 <div align="center">
-  <p>
-    <strong>Ready to build without barriers?</strong><br>
-    <a href="https://github.com/houtini-ai/lm">Explore @houtini/lm</a> and start generating unlimited code locally
-  </p>
   
-  <br>
-  
-  <a href="https://github.com/houtini-ai/lm">⭐ Star the main repo</a> • 
-  <a href="https://houtini.ai">🌐 Visit houtini.ai</a> • 
-  <a href="https://houtini.ai/docs-index.html">📖 Read the docs</a>
+**Ready to work smarter?**
+
+Pick a tool above and get started. Or just [star a repo](https://github.com/houtini-ai) to follow along.
+
+Built with coffee and frustration in the UK 🇬🇧
+
 </div>
