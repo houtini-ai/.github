@@ -13,7 +13,7 @@
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm?label=lm%20downloads&color=0066FF)](https://www.npmjs.com/package/@houtini/lm)
   [![License](https://img.shields.io/github/license/houtini-ai/houtini-lite)](https://github.com/houtini-ai/houtini-lite/blob/main/LICENSE)
   [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
-  [![Node.js](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen?logo=node.js)](https://nodejs.org/)
+  [![Node.js](https://img.shields.io/badge/node-%3E%3D24.0.0-brightgreen?logo=node.js)](https://nodejs.org/)
   
 </div>
 
