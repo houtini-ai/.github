@@ -13,6 +13,7 @@
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm?label=lm%20downloads&color=0066FF)](https://www.npmjs.com/package/@houtini/lm)
   [![License](https://img.shields.io/github/license/houtini-ai/houtini-lite)](https://github.com/houtini-ai/houtini-lite/blob/main/LICENSE)
   [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
+  [![Node.js](https://img.shields.io/badge/node-%3E%3D16.0.0-brightgreen?logo=node.js)](https://nodejs.org/)
   
 </div>
 
@@ -29,10 +30,14 @@ No hype. No £997 courses. Just tools that help you work smarter.
 ## Our Tools
 
 ### 🎯 **[Houtini Agents](https://github.com/houtini-ai/houtini-agents)** *(Coming Soon)*
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/houtini-agents?style=social)](https://github.com/houtini-ai/houtini-agents)
+
 Autonomous AI agents that actually understand your workflow. Not the sci-fi version - the practical "do this repetitive task while I grab coffee" version.
 
 ### ⚡ **[Houtini Lite](https://github.com/houtini-ai/houtini-lite)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/lite)](https://www.npmjs.com/package/@houtini/lite)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lite)](https://www.npmjs.com/package/@houtini/lite)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/houtini-lite?style=social)](https://github.com/houtini-ai/houtini-lite)
 
 The streamlined version. Same power, less setup. Perfect when you need local AI analysis without the full toolkit. One command, you're running.
 
@@ -41,18 +46,30 @@ npm install -g @houtini/lite
 ```
 
 ### 🌍 **[GEO Analyzer](https://github.com/houtini-ai/geo-analyzer)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/geo-analyzer)](https://www.npmjs.com/package/@houtini/geo-analyzer)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/geo-analyzer)](https://www.npmjs.com/package/@houtini/geo-analyzer)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/geo-analyzer?style=social)](https://github.com/houtini-ai/geo-analyzer)
 
 SEO is dead. Long live GEO (Generative Engine Optimisation). This tool shows you exactly how AI search engines see your content. Built it because I needed it. Now you can use it too.
 
 ### 🚀 **[Gemini MCP](https://github.com/houtini-ai/gemini-mcp)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/gemini-mcp?style=social)](https://github.com/houtini-ai/gemini-mcp)
+
 Connect Claude to Google's Gemini. Why? Because sometimes you need a second opinion. Or the first opinion. Or just want to see what happens when AIs talk to each other.
 
 ### 📧 **[Brevo MCP](https://github.com/houtini-ai/brevo-mcp)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/brevo-mcp)](https://www.npmjs.com/package/@houtini/brevo-mcp)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/brevo-mcp)](https://www.npmjs.com/package/@houtini/brevo-mcp)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/brevo-mcp?style=social)](https://github.com/houtini-ai/brevo-mcp)
+
 Email marketing meets AI. Analyse campaigns, segment lists, write better copy. All from Claude. Because switching between seventeen tabs is nobody's idea of productivity.
 
 ### 🔧 **[Houtini LM](https://github.com/houtini-ai/lm)** *(Original)*
 [![NPM Version](https://img.shields.io/npm/v/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/lm?style=social)](https://github.com/houtini-ai/lm)
 
 Where it all started. The full toolkit with 50+ expert functions. Code analysis, generation, WordPress development, even games. Still actively maintained for power users who want everything.
 
