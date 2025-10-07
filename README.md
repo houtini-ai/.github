@@ -6,17 +6,7 @@
   <img src="https://raw.githubusercontent.com/houtini-ai/.github/refs/heads/main/houtini-logo.jpg" alt="Houtini Logo" height="120">
   
   <h3>Your AI's Local Superpower</h3>
-  <p>Transform your development workflow with unlimited local AI processing</p>
-  
-  <a href="https://github.com/houtini-ai/lm/blob/main/docs/user-guide-md.md">
-    <img src="https://img.shields.io/badge/🚀_Get_Started-0066FF?style=for-the-badge" alt="Get Started">
-  </a>
-  <a href="https://github.com/houtini-ai/lm">
-    <img src="https://img.shields.io/badge/📦_@houtini/lm-00CC88?style=for-the-badge" alt="Main Package">
-  </a>
-  <a href="https://github.com/houtini-ai/lm/blob/main/docs/user-guide-md.md">
-    <img src="https://img.shields.io/badge/📚_Documentation-4A90E2?style=for-the-badge" alt="Documentation">
-  </a>
+  <p>Transform your workflow with unlimited local AI support via MCP</p>
 </div>
 
 <br>
@@ -37,7 +27,7 @@
 
 ## Why Houtini?
 
-**Building with Claude or local LLMs?** Stop burning through API budgets and context windows on routine tasks. Houtini handles code analysis, generation, and documentation locally so you can focus on architecture and creative problem-solving.
+**Building with API services like Anthropic?** Stop burning through API budgets and context windows on routine tasks. Houtini handles offloading tasks locally so you can focus the costly activity on strategy, architecture and creative problem-solving.
 
 ## Our Core Ecosystem
 
