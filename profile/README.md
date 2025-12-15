@@ -4,7 +4,7 @@
   <img src="https://raw.githubusercontent.com/houtini-ai/.github/refs/heads/main/houtini-logo.jpg" alt="Houtini Logo" height="180">
   
   <h3>Work Smarter, Not Harder</h3>
-  <p>Tools that actually help you get stuff done with AI</p>
+  <p>Tools that help Content Marketers, Web Workers and SEO Practioners get stuff done, better and faster with AI</p>
 </div>
 
 <div align="center">
