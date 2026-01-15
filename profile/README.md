@@ -13,6 +13,7 @@
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp?label=gemini%20downloads&color=4285F4)](https://www.npmjs.com/package/@houtini/gemini-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/geo-analyzer?label=geo%20downloads&color=00CC88)](https://www.npmjs.com/package/@houtini/geo-analyzer)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fmp-mcp?label=fmp%20downloads&color=0066FF)](https://www.npmjs.com/package/@houtini/fmp-mcp)
+  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/voice-analyser?label=voice%20downloads&color=FF6B6B)](https://www.npmjs.com/package/@houtini/voice-analyser)
   [![License](https://img.shields.io/github/license/houtini-ai/fanout-mcp)](https://github.com/houtini-ai/fanout-mcp/blob/main/LICENSE)
   [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
   
@@ -82,6 +83,19 @@ Free tier available. Works with Financial Modeling Prep's comprehensive API.
 npx @houtini/fmp-mcp@latest
 ```
 
+### 🎙️ **[Voice Analyser](https://github.com/houtini-ai/voice-analyser-mcp)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/voice-analyser)](https://www.npmjs.com/package/@houtini/voice-analyser)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/voice-analyser)](https://www.npmjs.com/package/@houtini/voice-analyser)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/voice-analyser-mcp?style=social)](https://github.com/houtini-ai/voice-analyser-mcp)
+
+Extract your writing voice from published articles and generate immersive style guides. Traditional style guides list rules - this tool extracts the statistical fingerprint of how you actually write. Sentence rhythm, vocabulary patterns, argument flow, the micro-rhythms that make writing feel human.
+
+Feed it your sitemap, get back a guide that teaches LLMs to replicate your voice through examples, not rules. Experimental but effective.
+
+```bash
+npx @houtini/voice-analyser@latest
+```
+
 ### 🎯 **[Houtini Agents](https://github.com/houtini-ai/houtini-agents)**
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/houtini-agents?style=social)](https://github.com/houtini-ai/houtini-agents)
 
@@ -118,6 +132,9 @@ npx @houtini/gemini-mcp@latest
 
 # Financial data (stocks, markets, analysis)
 npx @houtini/fmp-mcp@latest
+
+# Voice analysis (writing style extraction)
+npx @houtini/voice-analyser@latest
 
 # Lightweight local AI toolkit
 npm install -g @houtini/lite
