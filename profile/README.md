@@ -70,19 +70,6 @@ Works with Gemini 2.5 Flash - the fast, capable model that won't burn your API b
 npx @houtini/gemini-mcp@latest
 ```
 
-### 📊 **[Financial Modeling Prep MCP](https://github.com/houtini-ai/fmp-mcp)**
-[![NPM Version](https://img.shields.io/npm/v/@houtini/fmp-mcp)](https://www.npmjs.com/package/@houtini/fmp-mcp)
-[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fmp-mcp)](https://www.npmjs.com/package/@houtini/fmp-mcp)
-[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/fmp-mcp?style=social)](https://github.com/houtini-ai/fmp-mcp)
-
-Real-time stock data, financial statements, analyst ratings, and market intelligence through Claude. Built because I needed market research capabilities without switching contexts. Get quotes, balance sheets, income statements, sector performance - all from conversation.
-
-Free tier available. Works with Financial Modeling Prep's comprehensive API.
-
-```bash
-npx @houtini/fmp-mcp@latest
-```
-
 ### 🎙️ **[Voice Analyser](https://github.com/houtini-ai/voice-analyser-mcp)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/voice-analyser)](https://www.npmjs.com/package/@houtini/voice-analyser)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/voice-analyser)](https://www.npmjs.com/package/@houtini/voice-analyser)
@@ -94,26 +81,6 @@ Feed it your sitemap, get back a guide that teaches LLMs to replicate your voice
 
 ```bash
 npx @houtini/voice-analyser@latest
-```
-
-### 🎯 **[Houtini Agents](https://github.com/houtini-ai/houtini-agents)**
-[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/houtini-agents?style=social)](https://github.com/houtini-ai/houtini-agents)
-
-MCP server wrapping autonomous agents using the Anthropic Agent SDK. Provides capability abstraction and constants-driven prompt assembly for multi-step workflows. Still experimental, but it's solving the "how do I build complex workflows without spaghetti code" problem.
-
-The architecture: clean separation between infrastructure (MCP) and agent logic (SDK). No hardcoded prompts.
-
-### ⚡ **[Houtini Lite](https://github.com/houtini-ai/houtini-lite)**
-[![NPM Version](https://img.shields.io/npm/v/@houtini/lite)](https://www.npmjs.com/package/@houtini/lite)
-[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lite)](https://www.npmjs.com/package/@houtini/lite)
-[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/houtini-lite?style=social)](https://github.com/houtini-ai/houtini-lite)
-
-The streamlined version of the original toolkit. Same power, less setup. Perfect when you need local AI analysis without the full feature set. One command, you're running.
-
-Built for people who want the benefits of local LLM integration without maintaining fifty functions.
-
-```bash
-npm install -g @houtini/lite
 ```
 
 ## Quick Start
@@ -130,14 +97,9 @@ npx @houtini/geo-analyzer@latest
 # Gemini integration (search grounding + research)
 npx @houtini/gemini-mcp@latest
 
-# Financial data (stocks, markets, analysis)
-npx @houtini/fmp-mcp@latest
-
 # Voice analysis (writing style extraction)
 npx @houtini/voice-analyser@latest
 
-# Lightweight local AI toolkit
-npm install -g @houtini/lite
 ```
 
 Then configure in Claude Desktop:
@@ -172,7 +134,7 @@ We're not building for enterprise. We're building for Tuesday morning when you n
 
 I'm Richard. Twenty years on the web, two years deep in AI. Started building these tools because I needed them. Turns out other people need them too.
 
-Every tool here solves a real problem I've hit. No theoretical "this might be useful" stuff. Just practical solutions to actual work problems.
+Every tool here addresses a problem I've hit.
 
 Want the full story? Read the [Houtini blog](https://houtini.com/articles/) for guidance on getting started.
 
@@ -187,11 +149,11 @@ Brought to you by **[Houtini.com](https://houtini.com)** - practical AI tools fo
 
 ## Philosophy
 
-AI shouldn't be complicated. It shouldn't require a PhD or a massive budget. It should just help you work better.
+AI shouldn't be complicated. It shouldn't require a PhD or a massive budget. It should just help you work better. It's certainly no replacement for creativity but as a productivity tool it's awesome.
 
 Every tool we build follows these rules:
 1. It solves a real problem
-2. It works out of the box
+2. It works
 3. It doesn't require a manual to understand
 
 That's it. No manifestos. No disruption. Just tools that work.
