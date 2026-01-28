@@ -13,6 +13,7 @@
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp?label=gemini%20downloads&color=4285F4)](https://www.npmjs.com/package/@houtini/gemini-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/geo-analyzer?label=geo%20downloads&color=00CC88)](https://www.npmjs.com/package/@houtini/geo-analyzer)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fmp-mcp?label=fmp%20downloads&color=0066FF)](https://www.npmjs.com/package/@houtini/fmp-mcp)
+  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/google-knowledge-graph-mcp?label=knowledge%20graph%20downloads&color=DB4437)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/voice-analyser?label=voice%20downloads&color=FF6B6B)](https://www.npmjs.com/package/@houtini/voice-analyser)
   [![License](https://img.shields.io/github/license/houtini-ai/fanout-mcp)](https://github.com/houtini-ai/fanout-mcp/blob/main/LICENSE)
   [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
@@ -68,6 +69,19 @@ Works with Gemini 2.5 Flash - the fast, capable model that won't burn your API b
 
 ```bash
 npx @houtini/gemini-mcp@latest
+```
+
+### 🔎 **[Google Knowledge Graph MCP](https://github.com/houtini-ai/google-knowledge-graph-mcp)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/google-knowledge-graph-mcp)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/google-knowledge-graph-mcp)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/google-knowledge-graph-mcp?style=social)](https://github.com/houtini-ai/google-knowledge-graph-mcp)
+
+Search Google's public Knowledge Graph for structured entity information. Get facts about people, places, organisations, and concepts from Google's database - the same data that powers those info boxes on search results.
+
+Built it because I needed quick access to verified entity data without web scraping. Uses Google's free public API (not the Enterprise version), so no billing account required.
+
+```bash
+npx @houtini/google-knowledge-graph-mcp@latest
 ```
 
 ### 📊 **[Financial Modeling Prep MCP](https://github.com/houtini-ai/fmp-mcp)**
@@ -129,6 +143,9 @@ npx @houtini/geo-analyzer@latest
 
 # Gemini integration (search grounding + research)
 npx @houtini/gemini-mcp@latest
+
+# Google Knowledge Graph (entity information)
+npx @houtini/google-knowledge-graph-mcp@latest
 
 # Financial data (stocks, markets, analysis)
 npx @houtini/fmp-mcp@latest
