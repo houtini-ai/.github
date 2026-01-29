@@ -3,7 +3,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/houtini-ai/.github/refs/heads/main/houtini-logo.jpg" alt="Houtini Logo" height="180">
   
-  <h3>Optimise Your Content for AI Search. Less Overwhelm. More Oompf.</h3>
+  <h3>Your AI Workflow/Content/Digital Specialist. Less Overwhelm. More Oompf.</h3>
   <p>Cut through the noise. We’re experts in content marketing, SEO and creating content for that ranks in AI search. We offer practical AI tools for Web Workers, Digital Marketers and SEOs. Improve your workflow and, your team’s efficiency. Let us handle the technical stuff so you can get on with creating visible content that works in AI.</p>
 </div>
 
