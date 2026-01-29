@@ -34,6 +34,7 @@ No hype. No £997 courses. Just tools that help you work smarter.
 
 ### 🔍 **[Fan-Out MCP](https://github.com/houtini-ai/fanout-mcp)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/fanout-mcp)](https://www.npmjs.com/package/@houtini/fanout-mcp)
+[![Known Vulnerabilities](https://snyk.io/test/github/houtini/fanout-mcp/badge.svg)](https://snyk.io/test/github/houtini/fanout-mcp)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fanout-mcp)](https://www.npmjs.com/package/@houtini/fanout-mcp)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/fanout-mcp?style=social)](https://github.com/houtini-ai/fanout-mcp)
 
@@ -47,6 +48,7 @@ npx @houtini/fanout-mcp@latest
 
 ### 🌍 **[GEO Analyzer](https://github.com/houtini-ai/geo-analyzer)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/geo-analyzer)](https://www.npmjs.com/package/@houtini/geo-analyzer)
+[![Known Vulnerabilities](https://snyk.io/test/github/houtini/geo-analyzer/badge.svg)](https://snyk.io/test/github/houtini/geo-analyzer)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/geo-analyzer)](https://www.npmjs.com/package/@houtini/geo-analyzer)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/geo-analyzer?style=social)](https://github.com/houtini-ai/geo-analyzer)
 
@@ -60,12 +62,13 @@ npx @houtini/geo-analyzer@latest
 
 ### 🚀 **[Gemini MCP](https://github.com/houtini-ai/gemini-mcp)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
+[![Known Vulnerabilities](https://snyk.io/test/github/houtini/gemini-mcp/badge.svg)](https://snyk.io/test/github/houtini/gemini-mcp)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/gemini-mcp?style=social)](https://github.com/houtini-ai/gemini-mcp)
 
 Connect Claude to Google's Gemini with search grounding, deep research, and video analysis. Why? Because sometimes you need a second opinion. Or real-time information Claude doesn't have. Or you want to analyse YouTube videos for accessibility descriptions.
 
-Works with Gemini 2.5 Flash - the fast, capable model that won't burn your API budget.
+Works with Gemini 3.0 Pro - the fast, capable model that won't burn your API budget.
 
 ```bash
 npx @houtini/gemini-mcp@latest
@@ -73,6 +76,7 @@ npx @houtini/gemini-mcp@latest
 
 ### 🔎 **[Google Knowledge Graph MCP](https://github.com/houtini-ai/google-knowledge-graph-mcp)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/google-knowledge-graph-mcp)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
+[![Known Vulnerabilities](https://snyk.io/test/github/houtini/google-knowledge-graph-search-mcp/badge.svg)](https://snyk.io/test/github/houtini/google-knowledge-graph-search-mcp)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/google-knowledge-graph-mcp)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/google-knowledge-graph-mcp?style=social)](https://github.com/houtini-ai/google-knowledge-graph-mcp)
 
@@ -86,6 +90,7 @@ npx @houtini/google-knowledge-graph-mcp@latest
 
 ### 🎙️ **[Voice Analyser](https://github.com/houtini-ai/voice-analyser-mcp)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/voice-analyser)](https://www.npmjs.com/package/@houtini/voice-analyser)
+[![Known Vulnerabilities](https://snyk.io/test/github/houtini/mcp-server-voice-analysis/badge.svg)](https://snyk.io/test/github/houtini/mcp-server-voice-analysis)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/voice-analyser)](https://www.npmjs.com/package/@houtini/voice-analyser)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/voice-analyser-mcp?style=social)](https://github.com/houtini-ai/voice-analyser-mcp)
 
