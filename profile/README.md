@@ -26,9 +26,9 @@
 
 AI tools are powerful but they're also overwhelming. Documentation written by robots for robots. Enterprise solutions when you just need to get Tuesday's work done.
 
-We build the bridges. MCP servers that connect your tools. Research-backed analysis that improves your content. Practical AI SEO stuff that works.
+We build the bridges. MCP servers that connect your tools. Run on your Local LLM or in Claude, Cursor, Cline or your AI Assistant of choice.
 
-No hype. No £997 courses. Just tools that help you work smarter.
+No hype. Just Open Source tools. Need something? Get in touch.
 
 ## Our Tools
 
