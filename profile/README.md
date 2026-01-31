@@ -3,7 +3,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/houtini-ai/.github/refs/heads/main/houtini-logo.jpg" alt="Houtini Logo" height="180">
   
-  <h3>Your AI Workflow/Content/Digital Specialist. Less Overwhelm. More Oompf.</h3>
+  <h3>Your AI Workflow/Data/Content/Digital Specialist. Less Overwhelm. More Oompf.</h3>
   <p>Practical AI tools for Web Workers, Digital Marketers and SEOs. Improve your workflow and your team’s efficiency.</p>
 </div>
 
