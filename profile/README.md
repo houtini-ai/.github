@@ -165,7 +165,7 @@ Want the full story? Read the [Houtini blog](https://houtini.com/articles/) for 
 - 📖 **[Houtini Blog](https://houtini.com/articles/)** - Read guidance on getting started with MCP and AI tools
 - 💬 **[GitHub Discussions](https://github.com/orgs/houtini-ai/discussions)** - Share what you're building
 - 🐛 **[Issues](https://github.com/orgs/houtini-ai/repositories)** - Report problems, request features
-- ✉️ **[Email](mailto:support@richardbaxter.co)** - Direct line if you need it
+- ✉️ **[Email](mailto:hello@houtini.com)** - Direct line if you need it
 
 Brought to you by **[Houtini.com](https://houtini.com)** - practical AI tools for Web Workers, Digital Marketers and SEO practitioners.
 
