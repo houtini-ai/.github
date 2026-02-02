@@ -12,6 +12,7 @@
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fanout-mcp?label=fanout%20downloads&color=9333EA)](https://www.npmjs.com/package/@houtini/fanout-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp?label=gemini%20downloads&color=4285F4)](https://www.npmjs.com/package/@houtini/gemini-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/geo-analyzer?label=geo%20downloads&color=00CC88)](https://www.npmjs.com/package/@houtini/geo-analyzer)
+  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/seo-crawler-mcp?label=seo%20crawler%20downloads&color=FF8C00)](https://www.npmjs.com/package/@houtini/seo-crawler-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fmp-mcp?label=fmp%20downloads&color=0066FF)](https://www.npmjs.com/package/@houtini/fmp-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/google-knowledge-graph-mcp?label=knowledge%20graph%20downloads&color=DB4437)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/voice-analyser?label=voice%20downloads&color=FF6B6B)](https://www.npmjs.com/package/@houtini/voice-analyser)
@@ -58,6 +59,20 @@ Built it because traditional SEO metrics stopped predicting what gets cited by C
 
 ```bash
 npx @houtini/geo-analyzer@latest
+```
+
+### 🕷️ **[SEO Crawler MCP](https://github.com/houtini-ai/seo-crawler-mcp)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/seo-crawler-mcp)](https://www.npmjs.com/package/@houtini/seo-crawler-mcp)
+[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/seo-crawler-mcp/badge.svg)](https://snyk.io/test/github/houtini-ai/seo-crawler-mcp)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/seo-crawler-mcp)](https://www.npmjs.com/package/@houtini/seo-crawler-mcp)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/seo-crawler-mcp?style=social)](https://github.com/houtini-ai/seo-crawler-mcp)
+
+Crawl your entire website and detect technical SEO issues that actually matter. 25+ analysis queries covering broken links, duplicate content, security headers, content quality, and optimisation opportunities. Built with Crawlee for smart crawling and SQLite for local analysis.
+
+Works via CLI for large sites or through Claude for AI-powered analysis. Run the crawl overnight, hand the results to Claude, get intelligent recommendations. No external dependencies, everything stays local.
+
+```bash
+npx @houtini/seo-crawler-mcp@latest
 ```
 
 ### 🚀 **[Gemini MCP](https://github.com/houtini-ai/gemini-mcp)**
@@ -112,6 +127,9 @@ npx @houtini/fanout-mcp@latest
 
 # GEO analysis (AI search optimisation)
 npx @houtini/geo-analyzer@latest
+
+# SEO Crawler (technical SEO audit)
+npx @houtini/seo-crawler-mcp@latest
 
 # Gemini integration (search grounding + research)
 npx @houtini/gemini-mcp@latest
