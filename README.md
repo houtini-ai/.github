@@ -41,6 +41,16 @@ Growing list of expert functions for code analysis, generation, and documentatio
 
 <br clear="right"/>
 
+### SEO & Website Tools
+<a href="https://github.com/houtini-ai/seo-crawler-mcp">
+  <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=houtini-ai&repo=seo-crawler-mcp&theme=light" />
+</a>
+
+**[@houtini/seo-crawler-mcp](https://github.com/houtini-ai/seo-crawler-mcp)** - Website Crawler & SEO Analyzer  
+Crawl websites and detect technical SEO issues. 25+ analysis queries covering content quality, security, and optimisation opportunities. Built with Crawlee and SQLite for local analysis.
+
+<br clear="right"/>
+
 ### Documentation & Examples
 <a href="https://github.com/houtini-ai/examples](https://github.com/houtini-ai/lm/blob/main/docs/user-guide-md.md">
   <img align="right" src="https://github-readme-stats.vercel.app/api/pin/?username=houtini-ai&repo=examples&theme=light" />
@@ -87,6 +97,7 @@ local-llm:health_check
 | **Generation** | 8+ functions | Tests, documentation, WordPress plugins |
 | **Creative** | 3+ functions | Games, CSS art, interactive experiences |
 | **System** | 5+ functions | Health checks, diagnostics, cache management |
+| **SEO Tools** | 4 functions | Website crawling, SEO analysis, query execution |
 
 ## Community & Support
 
