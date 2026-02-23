@@ -13,9 +13,12 @@
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp?label=gemini%20downloads&color=4285F4)](https://www.npmjs.com/package/@houtini/gemini-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/geo-analyzer?label=geo%20downloads&color=00CC88)](https://www.npmjs.com/package/@houtini/geo-analyzer)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/seo-crawler-mcp?label=seo%20crawler%20downloads&color=FF8C00)](https://www.npmjs.com/package/@houtini/seo-crawler-mcp)
-  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fmp-mcp?label=fmp%20downloads&color=0066FF)](https://www.npmjs.com/package/@houtini/fmp-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/google-knowledge-graph-mcp?label=knowledge%20graph%20downloads&color=DB4437)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/voice-analyser?label=voice%20downloads&color=FF6B6B)](https://www.npmjs.com/package/@houtini/voice-analyser)
+  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/better-search-console?label=search%20console%20downloads&color=34A853)](https://www.npmjs.com/package/@houtini/better-search-console)
+  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/brevo-mcp?label=brevo%20downloads&color=0B996E)](https://www.npmjs.com/package/@houtini/brevo-mcp)
+  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fmp-mcp?label=fmp%20downloads&color=0066FF)](https://www.npmjs.com/package/@houtini/fmp-mcp)
+  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm?label=lm%20downloads&color=6366F1)](https://www.npmjs.com/package/@houtini/lm)
   [![License](https://img.shields.io/github/license/houtini-ai/fanout-mcp)](https://github.com/houtini-ai/fanout-mcp/blob/main/LICENSE)
   [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
   
@@ -117,29 +120,73 @@ Feed it your sitemap, get back a guide that teaches LLMs to replicate your voice
 npx @houtini/voice-analyser@latest
 ```
 
+### 📊 **[Better Search Console](https://github.com/houtini-ai/better-search-console)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/better-search-console)](https://www.npmjs.com/package/@houtini/better-search-console)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/better-search-console)](https://www.npmjs.com/package/@houtini/better-search-console)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/better-search-console?style=social)](https://github.com/houtini-ai/better-search-console)
+
+Pull your Google Search Console data via API into a local SQLite database. Pre-configured queries for the analysis you actually run — top queries, growing pages, declining keywords, opportunities sitting at positions 5–20. Generates interactive dashboards through MCP Apps in Claude Desktop.
+
+The GSC web interface is fine for a quick glance. This is for when you need to ask real questions of your data.
+
+```bash
+npx @houtini/better-search-console@latest
+```
+
+### 💰 **[FMP MCP](https://github.com/houtini-ai/fmp-mcp)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/fmp-mcp)](https://www.npmjs.com/package/@houtini/fmp-mcp)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fmp-mcp)](https://www.npmjs.com/package/@houtini/fmp-mcp)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/fmp-mcp?style=social)](https://github.com/houtini-ai/fmp-mcp)
+
+Financial Modeling Prep API access from your AI assistant. Stock quotes, financial statements, market data, company profiles. Built it for a client who needed financial data piped into their content workflow without switching tabs.
+
+Free tier covers most use cases. The API is well documented, the MCP just makes it conversational.
+
+```bash
+npx @houtini/fmp-mcp@latest
+```
+
+### 📧 **[Brevo MCP](https://github.com/houtini-ai/brevo-mcp)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/brevo-mcp)](https://www.npmjs.com/package/@houtini/brevo-mcp)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/brevo-mcp)](https://www.npmjs.com/package/@houtini/brevo-mcp)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/brevo-mcp?style=social)](https://github.com/houtini-ai/brevo-mcp)
+
+Brevo (formerly Sendinblue) email marketing from your AI assistant. Manage contacts, campaigns, analytics, and transactional emails without leaving your editor. Covers the full API — contacts, lists, campaigns, templates, sending.
+
+If you're already on Brevo, this saves the context switch. If you're not, it's a solid free-tier email platform.
+
+```bash
+npx @houtini/brevo-mcp@latest
+```
+
+### 🤖 **[LM](https://github.com/houtini-ai/lm)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/lm?style=social)](https://github.com/houtini-ai/lm)
+
+Connect your AI assistant to LM Studio or any OpenAI-compatible local LLM endpoint. Chat, custom prompts with system messages, model listing, health checks. ~190 lines of TypeScript, no bloat.
+
+Useful for offloading routine tasks to a local model — saves API costs and keeps data on your machine.
+
+```bash
+npx @houtini/lm@latest
+```
+
 ## Quick Start
 
 Pick your flavour:
 
 ```bash
-# Fan-Out content analysis (keyword variants + gap analysis)
-npx @houtini/fanout-mcp@latest
-
-# GEO analysis (AI search optimisation)
-npx @houtini/geo-analyzer@latest
-
-# SEO Crawler (technical SEO audit)
-npx @houtini/seo-crawler-mcp@latest
-
-# Gemini integration (search grounding + research)
-npx @houtini/gemini-mcp@latest
-
-# Google Knowledge Graph (entity information)
-npx @houtini/google-knowledge-graph-mcp@latest
-
-# Voice analysis (writing style extraction)
-npx @houtini/voice-analyser@latest
-
+npx @houtini/fanout-mcp@latest              # Content gap analysis
+npx @houtini/geo-analyzer@latest             # AI search optimisation
+npx @houtini/seo-crawler-mcp@latest          # Technical SEO audit
+npx @houtini/gemini-mcp@latest               # Google Gemini integration
+npx @houtini/google-knowledge-graph-mcp@latest  # Entity data
+npx @houtini/voice-analyser@latest           # Writing style extraction
+npx @houtini/better-search-console@latest    # GSC data + dashboards
+npx @houtini/fmp-mcp@latest                  # Financial market data
+npx @houtini/brevo-mcp@latest                # Email marketing
+npx @houtini/lm@latest                       # Local LLM connection
 ```
 
 Then configure in Claude Desktop:
