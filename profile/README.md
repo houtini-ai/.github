@@ -1,7 +1,7 @@
 # Houtini
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/houtini-ai/.github/refs/heads/main/houtini-logo.jpg" alt="Houtini Logo" height="180">
+  <img src="https://raw.githubusercontent.com/houtini-ai/.github/refs/heads/main/houtini-logo.png" alt="Houtini Logo" height="180">
   
   <h3>Your AI Workflow/Data/Content/Digital Specialist. Less Overwhelm. More Oompf.</h3>
   <p>Practical AI tools for Web Workers, Digital Marketers and SEOs. Improve your workflow and your team’s efficiency.</p>
@@ -18,6 +18,7 @@
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/better-search-console?label=search%20console%20downloads&color=34A853)](https://www.npmjs.com/package/@houtini/better-search-console)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/brevo-mcp?label=brevo%20downloads&color=0B996E)](https://www.npmjs.com/package/@houtini/brevo-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fmp-mcp?label=fmp%20downloads&color=0066FF)](https://www.npmjs.com/package/@houtini/fmp-mcp)
+  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/yubhub?label=yubhub%20downloads&color=E11D48)](https://www.npmjs.com/package/@houtini/yubhub)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm?label=lm%20downloads&color=6366F1)](https://www.npmjs.com/package/@houtini/lm)
   [![License](https://img.shields.io/github/license/houtini-ai/fanout-mcp)](https://github.com/houtini-ai/fanout-mcp/blob/main/LICENSE)
   [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
@@ -172,6 +173,19 @@ Useful for offloading routine tasks to a local model — saves API costs and kee
 npx @houtini/lm@latest
 ```
 
+### 📋 **[YubHub](https://github.com/houtini-ai/yubhub)**
+[![NPM Version](https://img.shields.io/npm/v/@houtini/yubhub)](https://www.npmjs.com/package/@houtini/yubhub)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/yubhub)](https://www.npmjs.com/package/@houtini/yubhub)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/yubhub?style=social)](https://github.com/houtini-ai/yubhub)
+
+Turn any careers page into a structured job feed. Point it at a company's jobs URL and it discovers every open role, scrapes the listings, enriches them with AI (title normalisation, category tagging, salary extraction, company research) and publishes them as an XML feed.
+
+Supports Greenhouse, Lever, Workable, Workday, Oracle HCM, SmartRecruiters, Ashby, Pinpoint, Phenom and more. Create feeds, trigger runs, check on jobs, view dashboards, browse market stats — all from your AI assistant.
+
+```bash
+npx @houtini/yubhub@latest
+```
+
 ## Quick Start
 
 Pick your flavour:
@@ -187,6 +201,7 @@ npx @houtini/better-search-console@latest    # GSC data + dashboards
 npx @houtini/fmp-mcp@latest                  # Financial market data
 npx @houtini/brevo-mcp@latest                # Email marketing
 npx @houtini/lm@latest                       # Local LLM connection
+npx @houtini/yubhub@latest                   # Job feed pipeline
 ```
 
 Then configure in Claude Desktop:
