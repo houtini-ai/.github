@@ -37,6 +37,34 @@ No hype. Just Open Source tools. Need something? Get in touch.
 
 ## Our Tools
 
+### 🤖 **[Houtini LM](https://github.com/houtini-ai/lm)** — Save 93% of your Claude Code tokens
+[![NPM Version](https://img.shields.io/npm/v/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
+[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/lm/badge.svg)](https://snyk.io/test/github/houtini-ai/lm)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/lm?style=social)](https://github.com/houtini-ai/lm)
+
+MCP server that connects Claude Code to any local or cloud LLM. Claude keeps the reasoning — architecture, planning, tool orchestration — and delegates the grunt work to whatever cheaper model you've got running. Code review, test stubs, commit messages, format conversion. Benchmarked at 93.3% token savings on file-level tasks using real source files. Auto-profiles models via HuggingFace, routes tasks to the best loaded model, strips think-blocks, and tracks every token offloaded.
+
+Works with LM Studio, Ollama, vLLM, DeepSeek, Groq, Cerebras — anything speaking the OpenAI format.
+
+```bash
+npx @houtini/lm@latest
+```
+
+### 🚀 **[Gemini MCP](https://github.com/houtini-ai/gemini-mcp)** — Google Gemini inside Claude
+[![NPM Version](https://img.shields.io/npm/v/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
+[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/gemini-mcp/badge.svg)](https://snyk.io/test/github/houtini-ai/gemini-mcp)
+[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/gemini-mcp?style=social)](https://github.com/houtini-ai/gemini-mcp)
+
+Connect Claude to Google's Gemini with search grounding, deep research, image generation and analysis, SVG creation, video generation, and YouTube video analysis. When you need real-time information Claude doesn't have, a second opinion, or Gemini's multimodal capabilities. Works with Gemini 2.5 Pro and Flash.
+
+```bash
+npx @houtini/gemini-mcp@latest
+```
+
+---
+
 ### 🔍 **[Fan-Out MCP](https://github.com/houtini-ai/fanout-mcp)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/fanout-mcp)](https://www.npmjs.com/package/@houtini/fanout-mcp)
 [![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/fanout-mcp/badge.svg)](https://snyk.io/test/github/houtini-ai/fanout-mcp)
@@ -77,20 +105,6 @@ Works via CLI for large sites or through Claude for AI-powered analysis. Run the
 
 ```bash
 npx @houtini/seo-crawler-mcp@latest
-```
-
-### 🚀 **[Gemini MCP](https://github.com/houtini-ai/gemini-mcp)**
-[![NPM Version](https://img.shields.io/npm/v/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
-[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/gemini-mcp/badge.svg)](https://snyk.io/test/github/houtini-ai/gemini-mcp)
-[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
-[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/gemini-mcp?style=social)](https://github.com/houtini-ai/gemini-mcp)
-
-Connect Claude to Google's Gemini with search grounding, deep research, and video analysis. Why? Because sometimes you need a second opinion. Or real-time information Claude doesn't have. Or you want to analyse YouTube videos for accessibility descriptions.
-
-Works with Gemini 3.0 Pro - the fast, capable model that won't burn your API budget.
-
-```bash
-npx @houtini/gemini-mcp@latest
 ```
 
 ### 🔎 **[Google Knowledge Graph MCP](https://github.com/houtini-ai/google-knowledge-graph-mcp)**
@@ -160,19 +174,6 @@ If you're already on Brevo, this saves the context switch. If you're not, it's a
 npx @houtini/brevo-mcp@latest
 ```
 
-### 🤖 **[LM](https://github.com/houtini-ai/lm)**
-[![NPM Version](https://img.shields.io/npm/v/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
-[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
-[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/lm?style=social)](https://github.com/houtini-ai/lm)
-
-Connect your AI assistant to LM Studio or any OpenAI-compatible local LLM endpoint. Chat, custom prompts with system messages, model listing, health checks. ~190 lines of TypeScript, no bloat.
-
-Useful for offloading routine tasks to a local model — saves API costs and keeps data on your machine.
-
-```bash
-npx @houtini/lm@latest
-```
-
 ### 📋 **[YubHub](https://github.com/houtini-ai/yubhub)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/yubhub)](https://www.npmjs.com/package/@houtini/yubhub)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/yubhub)](https://www.npmjs.com/package/@houtini/yubhub)
@@ -191,16 +192,16 @@ npx @houtini/yubhub@latest
 Pick your flavour:
 
 ```bash
-npx @houtini/fanout-mcp@latest              # Content gap analysis
+npx @houtini/lm@latest                       # Local LLM delegation (93% token savings)
+npx @houtini/gemini-mcp@latest               # Google Gemini integration
+npx @houtini/fanout-mcp@latest               # Content gap analysis
 npx @houtini/geo-analyzer@latest             # AI search optimisation
 npx @houtini/seo-crawler-mcp@latest          # Technical SEO audit
-npx @houtini/gemini-mcp@latest               # Google Gemini integration
 npx @houtini/google-knowledge-graph-mcp@latest  # Entity data
 npx @houtini/voice-analyser@latest           # Writing style extraction
 npx @houtini/better-search-console@latest    # GSC data + dashboards
 npx @houtini/fmp-mcp@latest                  # Financial market data
 npx @houtini/brevo-mcp@latest                # Email marketing
-npx @houtini/lm@latest                       # Local LLM connection
 npx @houtini/yubhub@latest                   # Job feed pipeline
 ```
 
