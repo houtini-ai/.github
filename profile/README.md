@@ -37,7 +37,7 @@ No hype. Just Open Source tools. Need something? Get in touch.
 
 ## Our Tools
 
-### 🤖 **[Houtini LM](https://github.com/houtini-ai/lm)** — Save 93% of your Claude Code tokens
+### 🤖 **[Houtini LM](https://github.com/houtini-ai/lm)** — Save Claude Code tokens with local llm or cloud api 
 [![NPM Version](https://img.shields.io/npm/v/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
 [![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/lm/badge.svg)](https://snyk.io/test/github/houtini-ai/lm)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
