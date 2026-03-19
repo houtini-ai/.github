@@ -43,7 +43,7 @@ No hype. Just Open Source tools. Need something? Get in touch.
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/lm?style=social)](https://github.com/houtini-ai/lm)
 
-MCP server that connects Claude Code to any local or cloud LLM. Claude keeps the reasoning — architecture, planning, tool orchestration — and delegates the grunt work to whatever cheaper model you've got running. Code review, test stubs, commit messages, format conversion. Benchmarked at 93.3% token savings on file-level tasks using real source files. Auto-profiles models via HuggingFace, routes tasks to the best loaded model, strips think-blocks, and tracks every token offloaded.
+MCP server that connects Claude Code to any local or cloud LLM. Claude keeps the reasoning — architecture, planning, tool orchestration — and delegates the grunt work to whatever cheaper model you've got running. Code review, test stubs, commit messages, format conversion. Benchmarked at 93.3% token savings on specific, file-level tasks using real source files. Auto-profiles models via HuggingFace, routes tasks to the best loaded model, strips think-blocks, and tracks every token offloaded.
 
 Works with LM Studio, Ollama, vLLM, DeepSeek, Groq, Cerebras — anything speaking the OpenAI format.
 
