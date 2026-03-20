@@ -37,7 +37,20 @@ No hype. Just Open Source tools. Need something? Get in touch.
 
 ## Our Tools
 
-### 🤖 **[Houtini LM](https://github.com/houtini-ai/lm)** — Save Claude Code tokens with local llm or cloud api 
+### 🧠 **[Metacog](https://github.com/houtini-ai/metacog)** - Proprioceptive nervous system for AI agents
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/metacog?style=social)](https://github.com/houtini-ai/metacog)
+
+AI coding agents are brains in vats. They can't feel their context window filling up, don't know how long they've been working, can't sense when they're going in circles, and have no peripheral vision of how their changes affect the wider codebase. Metacog gives them a nervous system. Five proprioceptive senses fire silently after every tool call. Cross-session reinforcement tracking carries forward behavioural lessons - and unlike naive time-decay systems, rules that successfully suppress their target failure get reinforced by their own success.
+
+Two Claude Code hooks. Zero dependencies. Zero tokens when everything is normal.
+
+```bash
+npx @houtini/metacog --install
+```
+
+---
+
+### 🤖 **[Houtini LM](https://github.com/houtini-ai/lm)** - Save Claude Code tokens with local llm or cloud api
 [![NPM Version](https://img.shields.io/npm/v/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
 [![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/lm/badge.svg)](https://snyk.io/test/github/houtini-ai/lm)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
@@ -192,6 +205,7 @@ npx @houtini/yubhub@latest
 Pick your flavour:
 
 ```bash
+npx @houtini/metacog --install               # Agent proprioception + reinforcement tracking
 npx @houtini/lm@latest                       # Local LLM delegation (93% token savings)
 npx @houtini/gemini-mcp@latest               # Google Gemini integration
 npx @houtini/fanout-mcp@latest               # Content gap analysis
