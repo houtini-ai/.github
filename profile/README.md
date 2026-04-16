@@ -52,7 +52,6 @@ npx @houtini/metacog --install
 
 ### 🤖 **[Houtini LM](https://github.com/houtini-ai/lm)** - Save Claude Code tokens with local llm or cloud api
 [![NPM Version](https://img.shields.io/npm/v/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
-[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/lm/badge.svg)](https://snyk.io/test/github/houtini-ai/lm)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm)](https://www.npmjs.com/package/@houtini/lm)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/lm?style=social)](https://github.com/houtini-ai/lm)
 
@@ -66,7 +65,6 @@ npx @houtini/lm@latest
 
 ### 🚀 **[Gemini MCP](https://github.com/houtini-ai/gemini-mcp)** — Google Gemini inside Claude
 [![NPM Version](https://img.shields.io/npm/v/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
-[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/gemini-mcp/badge.svg)](https://snyk.io/test/github/houtini-ai/gemini-mcp)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/gemini-mcp?style=social)](https://github.com/houtini-ai/gemini-mcp)
 
@@ -80,7 +78,6 @@ npx @houtini/gemini-mcp@latest
 
 ### 🔍 **[Fan-Out MCP](https://github.com/houtini-ai/fanout-mcp)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/fanout-mcp)](https://www.npmjs.com/package/@houtini/fanout-mcp)
-[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/fanout-mcp/badge.svg)](https://snyk.io/test/github/houtini-ai/fanout-mcp)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fanout-mcp)](https://www.npmjs.com/package/@houtini/fanout-mcp)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/fanout-mcp?style=social)](https://github.com/houtini-ai/fanout-mcp)
 
@@ -94,7 +91,6 @@ npx @houtini/fanout-mcp@latest
 
 ### 🌍 **[GEO Analyzer](https://github.com/houtini-ai/geo-analyzer)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/geo-analyzer)](https://www.npmjs.com/package/@houtini/geo-analyzer)
-[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/geo-analyzer/badge.svg)](https://snyk.io/test/github/houtini-ai/geo-analyzer)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/geo-analyzer)](https://www.npmjs.com/package/@houtini/geo-analyzer)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/geo-analyzer?style=social)](https://github.com/houtini-ai/geo-analyzer)
 
@@ -108,7 +104,6 @@ npx @houtini/geo-analyzer@latest
 
 ### 🕷️ **[SEO Crawler MCP](https://github.com/houtini-ai/seo-crawler-mcp)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/seo-crawler-mcp)](https://www.npmjs.com/package/@houtini/seo-crawler-mcp)
-[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/seo-crawler-mcp/badge.svg)](https://snyk.io/test/github/houtini-ai/seo-crawler-mcp)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/seo-crawler-mcp)](https://www.npmjs.com/package/@houtini/seo-crawler-mcp)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/seo-crawler-mcp?style=social)](https://github.com/houtini-ai/seo-crawler-mcp)
 
@@ -122,7 +117,6 @@ npx @houtini/seo-crawler-mcp@latest
 
 ### 🔎 **[Google Knowledge Graph MCP](https://github.com/houtini-ai/google-knowledge-graph-mcp)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/google-knowledge-graph-mcp)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
-[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/google-knowledge-graph-mcp/badge.svg)](https://snyk.io/test/github/houtini-ai/google-knowledge-graph-mcp)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/google-knowledge-graph-mcp)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/google-knowledge-graph-mcp?style=social)](https://github.com/houtini-ai/google-knowledge-graph-mcp)
 
@@ -136,7 +130,6 @@ npx @houtini/google-knowledge-graph-mcp@latest
 
 ### 🎙️ **[Voice Analyser](https://github.com/houtini-ai/voice-analyser-mcp)**
 [![NPM Version](https://img.shields.io/npm/v/@houtini/voice-analyser)](https://www.npmjs.com/package/@houtini/voice-analyser)
-[![Known Vulnerabilities](https://snyk.io/test/github/houtini-ai/voice-analyser-mcp/badge.svg)](https://snyk.io/test/github/houtini-ai/voice-analyser-mcp)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/voice-analyser)](https://www.npmjs.com/package/@houtini/voice-analyser)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/voice-analyser-mcp?style=social)](https://github.com/houtini-ai/voice-analyser-mcp)
 
