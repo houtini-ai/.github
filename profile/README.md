@@ -242,14 +242,15 @@ npx mcp-kling
 ```
 
 ### 🕵️ **[ai-detect](https://github.com/houtini-ai/ai-detect)** `beta` - is the copy you're buying handwritten?
-[![Status](https://img.shields.io/badge/status-beta-d946ef?style=flat-square)](https://github.com/houtini-ai/ai-detect)
+[![MCP](https://img.shields.io/badge/Model_Context_Protocol-server-8b5cf6?style=flat-square)](https://modelcontextprotocol.io)
+[![Model](https://img.shields.io/badge/model-DeBERTa--v3-5b5fff?style=flat-square)](https://huggingface.co/desklib/ai-text-detector-v1.01)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/ai-detect?style=social)](https://github.com/houtini-ai/ai-detect)
 
-Find out, free and at scale. A local AI-content detector built on a DeBERTa-v3 model - the RAID benchmark's top-ranked detector - that scores copy sentence by sentence and, better than a single number, tells you *why* a line reads as machine-written: the formal verbs, the missing contractions, the "Furthermore" openers. Point it at the article before you pay for it. It's no Pangram Labs, but where there's smoke there's fire.
+Find out, free and at scale, on your own machine. A local AI-content detector built on a DeBERTa-v3 model - the RAID benchmark's top-ranked one - that scores copy sentence by sentence and, better than a single number, tells you *why* a line reads as machine-written: the formal verbs, the missing contractions, the "Furthermore" openers, each with a plain rewrite. It's an MCP server too, so Claude can score a draft for you without it being pasted into the chat. No API key, and it runs offline after the first model download. It's no Pangram Labs, but where there's smoke there's fire.
 
 ```bash
 git clone https://github.com/houtini-ai/ai-detect
-python detect.py --file draft.txt
+cd ai-detect && pip install .     # installs the ai-detect CLI and the ai-detect-mcp server
 ```
 
 ## Quick start
