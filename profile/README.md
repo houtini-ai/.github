@@ -177,7 +177,13 @@ npx @houtini/contentmarketingideas
 [![MCP Apps](https://img.shields.io/badge/MCP_Apps-inline_previews-8b5cf6?style=flat-square)](https://modelcontextprotocol.io)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/amazon-creators-mcp?style=social)](https://github.com/houtini-ai/amazon-creators-mcp)
 
-Ask Claude to find Amazon products and it hands back embeddable affiliate cards - image, price, rating, your tag already baked in - previewed inline in Claude Desktop through MCP Apps before you paste a thing. Search the catalogue, look up specific ASINs, build a single card or a whole grid. Built on the Amazon Creators API, the REST replacement for Product Advertising API 5.0.
+Ask Claude to find Amazon products and it hands back embeddable affiliate cards - image, price, savings, your tag already baked in - previewed inline in Claude Desktop through MCP Apps before you paste a thing. Search the catalogue, look up specific ASINs, build a single card or a whole grid.
+
+The format worth knowing about is `html-deals`. Most affiliate tooling gives you a card that looks like a card, which is exactly wrong the moment it lands in a post that already has house styling. This emits structural markup instead - `.amazon-deals-section` wrapping one `.amazon-deal-row` per product - so if your theme already styles those classes, the output inherits them and there's nothing to restyle. Compact 70px rows, so ten products read as a list rather than ten screens of scrolling.
+
+<img src="https://raw.githubusercontent.com/houtini-ai/amazon-creators-mcp/main/assets/deals-row-output.png" alt="Three product deal rows - thumbnail, title, brand, price, savings and a View on Amazon button" width="700">
+
+It won't print a Prime badge or a star rating it doesn't have: nothing in the API says whether an item is Prime-eligible, and review data is restricted per Associates account. Inventing either on a page someone might buy from isn't worth the polish. Built on the Amazon Creators API, the REST replacement for Product Advertising API 5.0.
 
 ```bash
 git clone https://github.com/houtini-ai/amazon-creators-mcp.git
