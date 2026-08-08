@@ -1,10 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/houtini-ai/.github/main/profile/houtini-logo.svg" alt="Houtini" height="130">
 
-  <h3>We build the agent layer.</h3>
-  <p>Agentic-AI consultancy from the founder of Builtvisible. We build the agent layer for data, marketing and e-commerce teams - and these are the open-source tools we made along the way. Free, MIT, on npm.</p>
-
-  <sub><b>Operating · accepting briefs</b></sub>
+  <h3>Tools to make Web work easier and faster.</h3>
 </div>
 
 <div align="center">
@@ -14,7 +11,6 @@
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp?label=gemini&color=d946ef&style=flat-square)](https://www.npmjs.com/package/@houtini/gemini-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/geo-analyzer?label=geo&color=5b5fff&style=flat-square)](https://www.npmjs.com/package/@houtini/geo-analyzer)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/yubhub?label=yubhub&color=8b5cf6&style=flat-square)](https://www.npmjs.com/package/@houtini/yubhub)
-  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fanout-mcp?label=fanout&color=d946ef&style=flat-square)](https://www.npmjs.com/package/@houtini/fanout-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/metacog?label=metacog&color=5b5fff&style=flat-square)](https://www.npmjs.com/package/@houtini/metacog)
   [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
 
@@ -92,19 +88,6 @@ I built it because traditional SEO metrics stopped predicting what gets quoted i
 npx @houtini/geo-analyzer@latest
 ```
 
-### 🔍 **[Fan-Out MCP](https://github.com/houtini-ai/fanout-mcp)** - what your content covers, and what it misses
-[![NPM Version](https://img.shields.io/npm/v/@houtini/fanout-mcp)](https://www.npmjs.com/package/@houtini/fanout-mcp)
-[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fanout-mcp)](https://www.npmjs.com/package/@houtini/fanout-mcp)
-[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/fanout-mcp?style=social)](https://github.com/houtini-ai/fanout-mcp)
-
-Content gap analysis using query decomposition and keyword fan-out - Google's own patented methodology. It tells you exactly which user queries a page answers, and which it leaves on the table. I built it on the academic research because I needed to understand how AI search engines actually evaluate content, not how we assume they do.
-
-Self-RAG validation means no hallucinations: every coverage claim comes with an exact quote from your content.
-
-```bash
-npx @houtini/fanout-mcp@latest
-```
-
 ### 🔎 **[Google Knowledge Graph MCP](https://github.com/houtini-ai/google-knowledge-graph-mcp)** - verified entity data, no scraping
 [![NPM Version](https://img.shields.io/npm/v/@houtini/google-knowledge-graph-mcp)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/google-knowledge-graph-mcp)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
@@ -161,17 +144,6 @@ git clone https://github.com/houtini-ai/node-session-reaper
 cd node-session-reaper; ./install.ps1
 ```
 
-### 📝 **[Content Marketing Ideas](https://github.com/houtini-ai/contentmarketingideas-mcp)** - the editorial research loop, automated
-[![NPM Version](https://img.shields.io/npm/v/@houtini/contentmarketingideas)](https://www.npmjs.com/package/@houtini/contentmarketingideas)
-[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/contentmarketingideas)](https://www.npmjs.com/package/@houtini/contentmarketingideas)
-[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/contentmarketingideas-mcp?style=social)](https://github.com/houtini-ai/contentmarketingideas-mcp)
-
-The MCP for [Content Marketing Ideas](https://contentmarketingideas.co), the editorial copilot I built because I was tired of the same research loop: you read a lot, notice patterns, get ideas, write. The reading and pattern-spotting is the slow part, and most of it is mechanical. This pulls the lot into Claude - source monitoring, editorial briefs, voice-matched drafts, RAG corpus search, Search Console data, WordPress publishing. Around 70 tools, one `npx`. Needs a free account for the API key.
-
-```bash
-npx @houtini/contentmarketingideas
-```
-
 ### 🛒 **[Amazon Creators MCP](https://github.com/houtini-ai/amazon-creators-mcp)** - paste-ready affiliate cards, straight into the post
 [![NPM Version](https://img.shields.io/npm/v/@houtini/amazon-creators-mcp)](https://www.npmjs.com/package/@houtini/amazon-creators-mcp)
 [![MCP Apps](https://img.shields.io/badge/MCP_Apps-inline_previews-8b5cf6?style=flat-square)](https://modelcontextprotocol.io)
@@ -187,17 +159,6 @@ It won't print a Prime badge or a star rating it doesn't have: nothing in the AP
 
 ```bash
 npx @houtini/amazon-creators-mcp@latest
-```
-
-### 🎬 **[MCP Kling](https://github.com/houtini-ai/mcp-kling)** - Kling AI video generation in Claude
-[![NPM Version](https://img.shields.io/npm/v/mcp-kling)](https://www.npmjs.com/package/mcp-kling)
-[![NPM Downloads](https://img.shields.io/npm/dt/mcp-kling)](https://www.npmjs.com/package/mcp-kling)
-[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/mcp-kling?style=social)](https://github.com/houtini-ai/mcp-kling)
-
-Full Kling AI access from Claude: text-to-video, image generation, lip-sync, effects, virtual try-on. 13+ tools across Kling v1.0 to v1.6 and KOLORS for images, with generated content saved locally automatically. Bring your own Kling API key.
-
-```bash
-npx mcp-kling
 ```
 
 ### 🕵️ **[ai-detect](https://github.com/houtini-ai/ai-detect)** `beta` - is the copy you're buying handwritten?
@@ -234,14 +195,11 @@ The rest are one `npx` away - pick your flavour:
 npx @houtini/lm@latest                           # Local LLM delegation (93% token savings)
 npx @houtini/gemini-mcp@latest                   # Google Gemini integration
 npx @houtini/geo-analyzer@latest                 # AI-search optimisation
-npx @houtini/fanout-mcp@latest                   # Content gap analysis
-npx @houtini/amazon-creators-mcp@latest           # Amazon affiliate deal rows
+npx @houtini/amazon-creators-mcp@latest          # Amazon affiliate deal rows
 npx @houtini/google-knowledge-graph-mcp@latest   # Entity data
 npx @houtini/metacog --install                   # Agent proprioception + reinforcement
-npx @houtini/fmp-mcp@latest                       # Financial market data
-npx @houtini/yubhub@latest                        # Job feed pipeline
-npx @houtini/contentmarketingideas                # Editorial research copilot
-npx mcp-kling                                     # Kling AI video
+npx @houtini/fmp-mcp@latest                      # Financial market data
+npx @houtini/yubhub@latest                       # Job feed pipeline
 ```
 
 **[ai-detect](https://github.com/houtini-ai/ai-detect)** (`beta`, AI-content detection) installs from source, straight from its repo.
@@ -251,11 +209,11 @@ Then configure in Claude Desktop (or Claude Code, Cursor, Cline):
 ```json
 {
   "mcpServers": {
-    "fanout": {
+    "gemini": {
       "command": "npx",
-      "args": ["-y", "@houtini/fanout-mcp@latest"],
+      "args": ["-y", "@houtini/gemini-mcp@latest"],
       "env": {
-        "ANTHROPIC_API_KEY": "your-key-here"
+        "GEMINI_API_KEY": "your-key-here"
       }
     }
   }
