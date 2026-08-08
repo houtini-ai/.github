@@ -173,7 +173,7 @@ npx @houtini/contentmarketingideas
 ```
 
 ### 🛒 **[Amazon Creators MCP](https://github.com/houtini-ai/amazon-creators-mcp)** - paste-ready affiliate cards, straight into the post
-[![Install from source](https://img.shields.io/badge/install-from_source-5b5fff?style=flat-square)](https://github.com/houtini-ai/amazon-creators-mcp)
+[![NPM Version](https://img.shields.io/npm/v/@houtini/amazon-creators-mcp)](https://www.npmjs.com/package/@houtini/amazon-creators-mcp)
 [![MCP Apps](https://img.shields.io/badge/MCP_Apps-inline_previews-8b5cf6?style=flat-square)](https://modelcontextprotocol.io)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/amazon-creators-mcp?style=social)](https://github.com/houtini-ai/amazon-creators-mcp)
 
@@ -186,8 +186,7 @@ The format worth knowing about is `html-deals`. Most affiliate tooling gives you
 It won't print a Prime badge or a star rating it doesn't have: nothing in the API says whether an item is Prime-eligible, and review data is restricted per Associates account. Inventing either on a page someone might buy from isn't worth the polish. Built on the Amazon Creators API, the REST replacement for Product Advertising API 5.0.
 
 ```bash
-git clone https://github.com/houtini-ai/amazon-creators-mcp.git
-cd amazon-creators-mcp && npm install && npm run build
+npx @houtini/amazon-creators-mcp@latest
 ```
 
 ### 🎬 **[MCP Kling](https://github.com/houtini-ai/mcp-kling)** - Kling AI video generation in Claude
@@ -236,6 +235,7 @@ npx @houtini/lm@latest                           # Local LLM delegation (93% tok
 npx @houtini/gemini-mcp@latest                   # Google Gemini integration
 npx @houtini/geo-analyzer@latest                 # AI-search optimisation
 npx @houtini/fanout-mcp@latest                   # Content gap analysis
+npx @houtini/amazon-creators-mcp@latest           # Amazon affiliate deal rows
 npx @houtini/google-knowledge-graph-mcp@latest   # Entity data
 npx @houtini/metacog --install                   # Agent proprioception + reinforcement
 npx @houtini/fmp-mcp@latest                       # Financial market data
@@ -244,7 +244,7 @@ npx @houtini/contentmarketingideas                # Editorial research copilot
 npx mcp-kling                                     # Kling AI video
 ```
 
-Two more install from source, straight from their repos: **[Amazon Creators MCP](https://github.com/houtini-ai/amazon-creators-mcp)** (affiliate cards) and **[ai-detect](https://github.com/houtini-ai/ai-detect)** (`beta`, AI-content detection).
+**[ai-detect](https://github.com/houtini-ai/ai-detect)** (`beta`, AI-content detection) installs from source, straight from its repo.
 
 Then configure in Claude Desktop (or Claude Code, Cursor, Cline):
 
