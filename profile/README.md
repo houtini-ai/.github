@@ -9,7 +9,6 @@
   [![SEO Audit Console](https://img.shields.io/badge/flagship-SEO_Audit_Console-5b5fff?style=flat-square)](https://github.com/houtini-ai/seo-audit)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm?label=lm&color=8b5cf6&style=flat-square)](https://www.npmjs.com/package/@houtini/lm)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp?label=gemini&color=d946ef&style=flat-square)](https://www.npmjs.com/package/@houtini/gemini-mcp)
-  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/geo-analyzer?label=geo&color=5b5fff&style=flat-square)](https://www.npmjs.com/package/@houtini/geo-analyzer)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/yubhub?label=yubhub&color=8b5cf6&style=flat-square)](https://www.npmjs.com/package/@houtini/yubhub)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/metacog?label=metacog&color=5b5fff&style=flat-square)](https://www.npmjs.com/package/@houtini/metacog)
   [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
@@ -73,19 +72,6 @@ Connect Claude to Google's Gemini: search grounding, deep research, image genera
 
 ```bash
 npx @houtini/gemini-mcp@latest
-```
-
-### 🌍 **[GEO Analyzer](https://github.com/houtini-ai/geo-analyzer)** - see your content the way AI search does
-[![NPM Version](https://img.shields.io/npm/v/@houtini/geo-analyzer)](https://www.npmjs.com/package/@houtini/geo-analyzer)
-[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/geo-analyzer)](https://www.npmjs.com/package/@houtini/geo-analyzer)
-[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/geo-analyzer?style=social)](https://github.com/houtini-ai/geo-analyzer)
-
-Generative Engine Optimisation analysis for the search engines that don't show ten blue links. It scores what actually gets you cited by ChatGPT, Perplexity and Gemini: claim density, writing quality, E-E-A-T signals, extractability. Research-backed metrics, not vibes.
-
-I built it because traditional SEO metrics stopped predicting what gets quoted in an AI answer. Turns out those engines care about different signals, and this shows you which.
-
-```bash
-npx @houtini/geo-analyzer@latest
 ```
 
 ### 🔎 **[Google Knowledge Graph MCP](https://github.com/houtini-ai/google-knowledge-graph-mcp)** - verified entity data, no scraping
@@ -175,9 +161,10 @@ cd ai-detect && pip install .     # installs the ai-detect CLI and the ai-detect
 
 ## Retired
 
-Four tools have come out of the set. The repos are archived rather than deleted and the npm packages still install, so nothing anyone has running breaks - but they get no further releases.
+Five tools have come out of the set. The repos are archived rather than deleted and the npm packages still install, so nothing anyone has running breaks - but they get no further releases.
 
 - **SEO Crawler MCP** and **Better Search Console** are now inside [SEO Audit Console](https://github.com/houtini-ai/seo-audit). The crawler and the Search Console sync both survived the move; what they gained was each other. A crawl tells you what a page is for, Search Console tells you what it earns, and most of the useful questions live where those two disagree.
+- **GEO Analyzer** folded into [SEO Audit Console](https://github.com/houtini-ai/seo-audit) as well. AI-search readiness - whether a page gets cited in AI Overviews, how extractable its answers are, how it scores for agents - belongs next to the audit that can act on it, not in a tool of its own.
 - **Voice Analyser** was always flagged experimental and we are not keeping it current. The code is MIT if you want it.
 - **Brevo MCP** was a thin wrapper over somebody else's API, and a stale integration is worse than none.
 
@@ -194,7 +181,6 @@ The rest are one `npx` away - pick your flavour:
 ```bash
 npx @houtini/lm@latest                           # Local LLM delegation (93% token savings)
 npx @houtini/gemini-mcp@latest                   # Google Gemini integration
-npx @houtini/geo-analyzer@latest                 # AI-search optimisation
 npx @houtini/amazon-creators-mcp@latest          # Amazon affiliate deal rows
 npx @houtini/google-knowledge-graph-mcp@latest   # Entity data
 npx @houtini/metacog --install                   # Agent proprioception + reinforcement
