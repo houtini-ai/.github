@@ -10,7 +10,6 @@
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/lm?label=lm&color=8b5cf6&style=flat-square)](https://www.npmjs.com/package/@houtini/lm)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp?label=gemini&color=d946ef&style=flat-square)](https://www.npmjs.com/package/@houtini/gemini-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/yubhub?label=yubhub&color=8b5cf6&style=flat-square)](https://www.npmjs.com/package/@houtini/yubhub)
-  [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/metacog?label=metacog&color=5b5fff&style=flat-square)](https://www.npmjs.com/package/@houtini/metacog)
   [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
 
 </div>
@@ -85,19 +84,6 @@ Search Google's public Knowledge Graph for structured facts about people, places
 npx @houtini/google-knowledge-graph-mcp@latest
 ```
 
-### 🧠 **[Metacog](https://github.com/houtini-ai/metacog)** - a nervous system for your coding agent
-[![NPM Version](https://img.shields.io/npm/v/@houtini/metacog)](https://www.npmjs.com/package/@houtini/metacog)
-[![NPM Downloads](https://img.shields.io/npm/dt/@houtini/metacog)](https://www.npmjs.com/package/@houtini/metacog)
-[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/metacog?style=social)](https://github.com/houtini-ai/metacog)
-
-AI coding agents are brains in vats. They can't feel their context window filling up, don't know how long they've been working, can't sense when they're going in circles, and have no peripheral vision of how a change lands on the wider codebase. Metacog gives them a nervous system: five proprioceptive senses that fire silently after every tool call. Cross-session reinforcement carries behavioural lessons forward - and unlike naive time-decay systems, a rule that keeps suppressing its target failure gets reinforced by its own success.
-
-Two Claude Code hooks. Zero dependencies. Zero tokens when everything's normal.
-
-```bash
-npx @houtini/metacog --install
-```
-
 ### 💰 **[FMP MCP](https://github.com/houtini-ai/fmp-mcp)** - financial market data in the conversation
 [![NPM Version](https://img.shields.io/npm/v/@houtini/fmp-mcp)](https://www.npmjs.com/package/@houtini/fmp-mcp)
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fmp-mcp)](https://www.npmjs.com/package/@houtini/fmp-mcp)
@@ -147,6 +133,18 @@ It won't print a Prime badge or a star rating it doesn't have: nothing in the AP
 npx @houtini/amazon-creators-mcp@latest
 ```
 
+### 📊 **[vllm-bench](https://github.com/houtini-ai/vllm-bench)** - find the fastest model, quant and settings for your GPU
+[![License: MIT](https://img.shields.io/badge/license-MIT-5b5fff?style=flat-square)](https://github.com/houtini-ai/vllm-bench/blob/main/LICENSE)
+[![vLLM](https://img.shields.io/badge/vLLM-Docker-8b5cf6?style=flat-square)](https://github.com/vllm-project/vllm)
+[![GitHub stars](https://img.shields.io/github/stars/houtini-ai/vllm-bench?style=social)](https://github.com/houtini-ai/vllm-bench)
+
+A single-file Python harness that benchmarks open-weight models served by vLLM in Docker, one configuration at a time, under one fixed protocol: decode speed at three context lengths, prefill, time to first token, four-way concurrency, power draw and peak VRAM, three runs per figure with the spread reported. It's the instrument behind our own model testing on a pair of modded 48GB RTX 4090s, and it carries the traps that cost us time to find: prompt lengths measured by the server rather than guessed, token counts taken from the engine so speculative decoding isn't under-read, and a timeout for the engine that stalls while `/health` still says it's fine. Standard library only; Linux, or Windows with WSL2.
+
+```bash
+git clone https://github.com/houtini-ai/vllm-bench
+cd vllm-bench && cp presets.example.toml presets.toml && python bench.py presets.toml
+```
+
 ### 🕵️ **[ai-detect](https://github.com/houtini-ai/ai-detect)** `beta` - is the copy you're buying handwritten?
 [![MCP](https://img.shields.io/badge/Model_Context_Protocol-server-8b5cf6?style=flat-square)](https://modelcontextprotocol.io)
 [![Model](https://img.shields.io/badge/model-DeBERTa--v3-5b5fff?style=flat-square)](https://huggingface.co/desklib/ai-text-detector-v1.01)
@@ -183,12 +181,11 @@ npx @houtini/lm@latest                           # Local LLM delegation (93% tok
 npx @houtini/gemini-mcp@latest                   # Google Gemini integration
 npx @houtini/amazon-creators-mcp@latest          # Amazon affiliate deal rows
 npx @houtini/google-knowledge-graph-mcp@latest   # Entity data
-npx @houtini/metacog --install                   # Agent proprioception + reinforcement
 npx @houtini/fmp-mcp@latest                      # Financial market data
 npx @houtini/yubhub@latest                       # Job feed pipeline
 ```
 
-**[ai-detect](https://github.com/houtini-ai/ai-detect)** (`beta`, AI-content detection) installs from source, straight from its repo.
+**[vllm-bench](https://github.com/houtini-ai/vllm-bench)** (vLLM benchmarking) and **[ai-detect](https://github.com/houtini-ai/ai-detect)** (`beta`, AI-content detection) install from source, straight from their repos.
 
 Then configure in Claude Desktop (or Claude Code, Cursor, Cline):
 
