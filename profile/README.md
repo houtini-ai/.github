@@ -29,11 +29,11 @@ No hype. No enterprise pricing for a Tuesday-morning problem. Need something we 
 ## The flagship
 
 ### 🔦 **[SEO Audit Console](https://github.com/houtini-ai/seo-audit)** - one assistant for both sides of SEO
-[![Source Available](https://img.shields.io/badge/license-source--available-5b5fff?style=flat-square)](https://github.com/houtini-ai/seo-audit)
+[![Apache 2.0](https://img.shields.io/badge/license-Apache_2.0-5b5fff?style=flat-square)](https://github.com/houtini-ai/seo-audit/blob/master/LICENSE)
 [![MCP](https://img.shields.io/badge/Model_Context_Protocol-server-8b5cf6?style=flat-square)](https://modelcontextprotocol.io)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/seo-audit?style=social)](https://github.com/houtini-ai/seo-audit)
 
-The issues that are costing you and the opportunities you're missing, in one prioritised list, inside Claude. SEO Audit Console merges your **Google Search Console** history, a **first-party crawl** of your site, and on-demand **DataForSEO** market data into a single audit: 90 checks covering crawlability, indexation, canonicalisation, structured data, Core Web Vitals and hreflang, right through to cannibalisation, striking-distance queries, content gaps, competitors and AI-search readiness.
+The issues that are costing you and the opportunities you're missing, in one prioritised list, inside Claude. SEO Audit Console merges your **Google Search Console** history, a **first-party crawl**, **DataForSEO** market data, **Majestic** link trust, **Chrome UX Report** field vitals and **Lighthouse** lab data into a single audit: 140+ checks covering crawlability, indexation, canonicalisation, structured data, Core Web Vitals, hreflang, accessibility and JavaScript rendering, right through to cannibalisation, striking-distance queries, content gaps, competitors, and a 0-100 AI-search readiness score that checks whether your pages actually get cited in AI Overviews.
 
 The difference is the ranking. A flat crawler sells you severity. This ranks by yield - every finding ordered by the clicks it could actually recover, every fix written for you: paste-ready redirects, JSON-LD, internal links, grounded content briefs. It finds the page sitting at position #3 on 150,000 impressions with a 0.2% click-through rate, tells you a title rewrite is probably worth thousands of clicks, and puts that *above* the cosmetic stuff. One line underneath all of it:
 
@@ -56,7 +56,7 @@ git clone https://github.com/houtini-ai/seo-audit.git
 
 MCP server that connects Claude Code to any local or cloud LLM. Claude keeps the reasoning - architecture, planning, tool orchestration - and hands the grunt work to whatever cheaper model you've got running: code review, test stubs, commit messages, format conversion. Benchmarked at 93.3% token savings on specific, file-level tasks against real source files. It auto-profiles models via HuggingFace, routes each task to the best loaded model, strips think-blocks, and counts every token it kept off your bill.
 
-Works with LM Studio, Ollama, vLLM, DeepSeek, Groq, Cerebras - anything speaking the OpenAI format.
+Works with LM Studio, Ollama, vLLM, SGLang, llama.cpp, DeepSeek, Groq, Cerebras, OpenRouter and the LiteLLM router - anything speaking the OpenAI format.
 
 ```bash
 npx @houtini/lm@latest
@@ -67,7 +67,7 @@ npx @houtini/lm@latest
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp)](https://www.npmjs.com/package/@houtini/gemini-mcp)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/gemini-mcp?style=social)](https://github.com/houtini-ai/gemini-mcp)
 
-Connect Claude to Google's Gemini: search grounding, deep research, image generation and analysis, SVG creation, video generation, YouTube video analysis. For when you need real-time information Claude doesn't have, a second opinion, or Gemini's multimodal side. Created images, landing pages, SVGs and video preview inline in Claude Desktop through MCP Apps. Works with Gemini 2.5 Pro and Flash.
+Connect Claude to Google's Gemini: search grounding, deep research, image generation and analysis, SVG creation, and video generation with **Veo 3.1** (up to 4K, native audio). Fourteen tools in all, including a prompt-and-chart-design assistant. For when you need real-time information Claude doesn't have, a second opinion, or Gemini's multimodal side. Created images, landing pages, SVGs and video preview inline in Claude Desktop through MCP Apps. Built on gemini-4-argon and the current 3-series models.
 
 ```bash
 npx @houtini/gemini-mcp@latest
@@ -78,7 +78,7 @@ npx @houtini/gemini-mcp@latest
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/google-knowledge-graph-mcp)](https://www.npmjs.com/package/@houtini/google-knowledge-graph-mcp)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/google-knowledge-graph-mcp?style=social)](https://github.com/houtini-ai/google-knowledge-graph-mcp)
 
-Search Google's public Knowledge Graph for structured facts about people, places, organisations and concepts - the same data behind the info boxes on search results. I built it because I needed quick access to verified entity data without web scraping. Uses Google's free public API, not the Enterprise version, so there's no billing account to set up.
+Search Google's public Knowledge Graph for structured facts about people, places, organisations and concepts - the same data behind the info boxes on search results. I built it because I needed quick access to verified entity data without web scraping. Uses Google's free public API, not the Enterprise version, so there's no billing account to set up. Two tools: search the graph, or look up specific entities by Machine ID - a batch of them in one call - when you already know what you're after.
 
 ```bash
 npx @houtini/google-knowledge-graph-mcp@latest
@@ -89,7 +89,7 @@ npx @houtini/google-knowledge-graph-mcp@latest
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/fmp-mcp)](https://www.npmjs.com/package/@houtini/fmp-mcp)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/fmp-mcp?style=social)](https://github.com/houtini-ai/fmp-mcp)
 
-Financial Modeling Prep from your AI assistant: stock quotes, financial statements, market data, company profiles. I built it for a client who needed financial data piped into their content workflow without switching tabs. The free tier covers most of what you'll ask; the MCP just makes the API conversational.
+Financial Modeling Prep from your AI assistant: stock quotes, financial statements and company profiles, through to analyst estimates and price targets, insider and institutional holdings, technical indicators, the economic and earnings calendars, S&P 500 constituents and market news - about two dozen tools. I built it for a client who needed financial data piped into their content workflow without switching tabs. The free tier (250 requests a day) covers most of what you'll ask; a couple of endpoints, like company news, want a paid plan.
 
 ```bash
 npx @houtini/fmp-mcp@latest
@@ -100,7 +100,7 @@ npx @houtini/fmp-mcp@latest
 [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/yubhub)](https://www.npmjs.com/package/@houtini/yubhub)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/yubhub?style=social)](https://github.com/houtini-ai/yubhub)
 
-Point it at a company's jobs URL and it finds every open role, scrapes the listings, enriches them with AI - title normalisation, category tagging, salary extraction, company research - and publishes them as an XML feed. Supports Greenhouse, Lever, Workable, Workday, Oracle HCM, SmartRecruiters, Ashby, Pinpoint, Phenom and more. Create feeds, trigger runs, check jobs, browse market stats, all from your AI assistant. It's run about six months on real feeds with almost no intervention.
+Point it at a company's jobs URL and it finds every open role, scrapes the listings, enriches them with AI - title normalisation, category tagging, salary extraction, company research - and publishes them as an XML feed. Supports Greenhouse, Lever, Workable, Workday, Oracle HCM, SmartRecruiters, Ashby, Pinpoint, Phenom and more. Create feeds, schedule them to run weekly on their own, trigger ad-hoc runs, check jobs and browse market stats - from your AI assistant or the built-in dashboards. It's run about six months on real feeds with almost no intervention.
 
 ```bash
 npx @houtini/yubhub@latest
@@ -109,7 +109,7 @@ npx @houtini/yubhub@latest
 ### 🧹 **[node-session-reaper](https://github.com/houtini-ai/node-session-reaper)** - stop leaked MCP servers eating your RAM
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/node-session-reaper?style=social)](https://github.com/houtini-ai/node-session-reaper)
 
-Run Claude Code with a stack of MCP servers on Windows and you've probably watched `node.exe` climb into the tens of GB over a day until the machine crawls. Windows doesn't cascade-kill child processes when the parent dies, so closed sessions leave their whole set of node servers running forever. This is a small, safe PowerShell reaper plus a scheduled task and a session hook that keep it in check. The safety rule is strict: a process is reapable only if no live Claude session owns it, so it can never touch a session you're using. Windows only.
+Run Claude Code with a stack of MCP servers on Windows and you've probably watched `node.exe` climb into the tens of GB over a day until the machine crawls. Windows doesn't cascade-kill child processes when the parent dies, so closed sessions leave their whole set of node servers running forever. This is a small, safe PowerShell 7 reaper plus a scheduled task and a session hook that keep it in check. The safety rule is strict: a process is reapable only if no live Claude session owns it, so it can never touch a session you're using - and a zombie mode clears idle sub-agent servers too. Windows only.
 
 ```powershell
 git clone https://github.com/houtini-ai/node-session-reaper
@@ -121,7 +121,7 @@ cd node-session-reaper; ./install.ps1
 [![MCP Apps](https://img.shields.io/badge/MCP_Apps-inline_previews-8b5cf6?style=flat-square)](https://modelcontextprotocol.io)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/amazon-creators-mcp?style=social)](https://github.com/houtini-ai/amazon-creators-mcp)
 
-Ask Claude to find Amazon products and it hands back embeddable affiliate cards - image, price, savings, your tag already baked in - previewed inline in Claude Desktop through MCP Apps before you paste a thing. Search the catalogue, look up specific ASINs, build a single card or a whole grid.
+Ask Claude to find Amazon products and it hands back embeddable affiliate cards - image, price, savings, your tag already baked in - previewed inline in Claude Desktop through MCP Apps before you paste a thing. Search the catalogue, look up specific ASINs, build a single card or a whole grid. Beyond the cards, pull product variations (size and colour) and browse-node categories, and emit the same data as markdown or JSON.
 
 The format worth knowing about is `html-deals`. Most affiliate tooling gives you a card that looks like a card, which is exactly wrong the moment it lands in a post that already has house styling. This emits structural markup instead - `.amazon-deals-section` wrapping one `.amazon-deal-row` per product - so if your theme already styles those classes, the output inherits them and there's nothing to restyle. Compact 70px rows, so ten products read as a list rather than ten screens of scrolling.
 
@@ -150,7 +150,7 @@ cd vllm-bench && cp presets.example.toml presets.toml && python bench.py presets
 [![Model](https://img.shields.io/badge/model-DeBERTa--v3-5b5fff?style=flat-square)](https://huggingface.co/desklib/ai-text-detector-v1.01)
 [![GitHub stars](https://img.shields.io/github/stars/houtini-ai/ai-detect?style=social)](https://github.com/houtini-ai/ai-detect)
 
-Find out, free and at scale, on your own machine. A local AI-content detector built on a DeBERTa-v3 model - the RAID benchmark's top-ranked one - that scores copy sentence by sentence and, better than a single number, tells you *why* a line reads as machine-written: the formal verbs, the missing contractions, the "Furthermore" openers, each with a plain rewrite. It's an MCP server too, so Claude can score a draft for you without it being pasted into the chat. No API key, and it runs offline after the first model download. It's no Pangram Labs, but where there's smoke there's fire.
+Find out, free and at scale, on your own machine. A local AI-content detector built on a DeBERTa-v3 model - the RAID benchmark's top-ranked one - that scores copy sentence by sentence and, better than a single number, tells you *why* a line reads as machine-written: the formal verbs, the missing contractions, the "Furthermore" openers, each with a plain rewrite. It's an MCP server too, so Claude can score a draft for you without it being pasted into the chat. No API key, and it runs offline after the first model download. There's a lighter RoBERTa model if you want speed over DeBERTa accuracy, and a compare mode to score two drafts head to head. It's no Pangram Labs, but where there's smoke there's fire.
 
 ```bash
 git clone https://github.com/houtini-ai/ai-detect
