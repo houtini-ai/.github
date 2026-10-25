@@ -11,6 +11,7 @@
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/gemini-mcp?label=gemini&color=d946ef&style=flat-square)](https://www.npmjs.com/package/@houtini/gemini-mcp)
   [![NPM Downloads](https://img.shields.io/npm/dt/@houtini/yubhub?label=yubhub&color=8b5cf6&style=flat-square)](https://www.npmjs.com/package/@houtini/yubhub)
   [![GitHub Stars](https://img.shields.io/github/stars/houtini-ai?style=social)](https://github.com/houtini-ai)
+  [![Protected by Socket](https://img.shields.io/badge/Protected_by-Socket-00D16C?style=flat-square&logo=socket&logoColor=white)](https://socket.dev/github/houtini-ai)
 
 </div>
 
