@@ -158,15 +158,6 @@ git clone https://github.com/houtini-ai/ai-detect
 cd ai-detect && pip install .     # installs the ai-detect CLI and the ai-detect-mcp server
 ```
 
-## Retired
-
-Five tools have come out of the set. The repos are archived rather than deleted and the npm packages still install, so nothing anyone has running breaks - but they get no further releases.
-
-- **SEO Crawler MCP** and **Better Search Console** are now inside [SEO Audit Console](https://github.com/houtini-ai/seo-audit). The crawler and the Search Console sync both survived the move; what they gained was each other. A crawl tells you what a page is for, Search Console tells you what it earns, and most of the useful questions live where those two disagree.
-- **GEO Analyzer** folded into [SEO Audit Console](https://github.com/houtini-ai/seo-audit) as well. AI-search readiness - whether a page gets cited in AI Overviews, how extractable its answers are, how it scores for agents - belongs next to the audit that can act on it, not in a tool of its own.
-- **Voice Analyser** was always flagged experimental and we are not keeping it current. The code is MIT if you want it.
-- **Brevo MCP** was a thin wrapper over somebody else's API, and a stale integration is worse than none.
-
 ## Quick start
 
 The flagship installs from source:
